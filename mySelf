@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           }
+
+           .main {
+             margin: 0 auto;
+             width: 1000px;
+           }
+
+           .main img,
+           .main p,
+           .main h1 {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+           }
+
+    </style>
+</head>
+<body>
+      <div class="main">
+        <img src="./1.jpg">
+        <h1>蔡嘉灿</h1>
+        <p>前端工程师</p>
+      </div>
+</body>
+</html>
